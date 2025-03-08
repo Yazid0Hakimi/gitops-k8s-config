@@ -6,7 +6,6 @@ spec:
   selector:
     app: myapp
   ports:
-  - port: 3000
+  - port: 80  # Change from 3000 to 80
     protocol: TCP
-    targetPort: 3000
-  
+    targetPort: 80  # Nginx serves on port 80
