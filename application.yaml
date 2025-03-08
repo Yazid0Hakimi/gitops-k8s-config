@@ -8,6 +8,7 @@ spec:
 
   source:
     repoURL: https://github.com/Yazid0Hakimi/k8s-config.git
+    path: dev
     targetRevision: HEAD
   destination: 
     server: https://kubernetes.default.svc
