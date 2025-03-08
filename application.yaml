@@ -7,9 +7,8 @@ spec:
   project: default
 
   source:
-    repoURL: https://github.com/Yazid0Hakimi/Jokes-Generator.git
+    repoURL: https://github.com/Yazid0Hakimi/k8s-config.git
     targetRevision: HEAD
-    path: dev
   destination: 
     server: https://kubernetes.default.svc
     namespace: myapp
@@ -17,7 +16,6 @@ spec:
   syncPolicy:
     syncOptions:
     - CreateNamespace=true
-
     automated:
       selfHeal: true
       prune: true
