@@ -16,4 +16,4 @@ spec:
       - name: myapp
         image: yazid0hakimi/jokes-generator:1.1
         ports:
-        - containerPort: 3000
+        - containerPort: 80
